@@ -25,7 +25,7 @@ export function* authUserSaga(action){
         };
         let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBTvOwzTg-oJUkfwVJ56D1xzOXcosl1xxg';
         if (!action.isSignup) {
-            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBTvOwzTg-oJUkfwVJ56D1xzOXcosl1xxg';
+            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key="Add Your Key here"';
         }
         try {
 
